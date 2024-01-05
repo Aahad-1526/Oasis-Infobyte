@@ -419,6 +419,8 @@ html,body{
     width: 100%;
     background-color: #DDDDDD;
     position: relative;
+    padding-bottom: 120px;
+    /* margin-bottom: 60px; */
 }
 
 #box1{
@@ -444,9 +446,147 @@ html,body{
 }
 
 #box3{
-    height: 70vh;
-    width: 50vw;
+    height: 80vh;
+    width: 70vw;
     /* background-color: #1A1919; */
     margin: 60px auto;
+    background-color: #1A1919;
+    border-radius: 20px;
+    position: relative;
+}
+
+#box3>h1{
+    position: absolute;
+    font-family: polysam;
+    bottom: 3%;
+    right: 3%;
+    color: #DDDDDD;
+}
+
+#box4{
+    gap: 19px;
+    height: 100px;
+    width: 20vw;
+    margin: 0px auto;
+    /* background-color: #1A1919; */
+    display: flex;
+
     
 }
+
+
+#box4 #btw1{
+    height: 5vh;
+    width: 12vw;
+    background-color: #1A1919;
+    color: #DDDDDD;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+}
+
+#btw1>h3{
+    font-family: polysam;
+    font-weight: 300;
+}
+
+#box4 #btw2{
+    height: 5vh;
+    width: 7vw;
+    /* background-color: white; */
+    /* color: #1A1919; */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+    border: 0.5px solid #1A1919;
+}
+
+#btw2>h3{
+    font-family: polysam;
+    font-weight: 300;
+}
+
+
+#white3{
+    min-height: 120vh;
+    width: 100%;
+    background-color: #DDDDDD;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url(https://assets-global.website-files.com/645a9acecda2e0594fac6126/6580b17fba37a8b09716e702_gradient-ai.png) ;
+    color: #1A1919;
+    text-align: center;
+    /* padding-top: 500px; */
+}
+
+#boxx1{
+    width: 60%;
+    margin: 0px auto;
+    padding-top: -30px;
+}
+#boxx1 h1{
+    font-size: 100px;
+    font-family: polysam;
+    font-weight: 800;
+    line-height: 89px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+    
+#boxx1 span{
+    font-size: 100px;
+    font-weight: 100;
+    font-family: polyslim;
+}
+
+
+#boxx1 p{
+    font-family: polysam;
+    font-size: 29px;
+    font-weight: 200;
+    margin-bottom: 30px;
+
+}
+
+
+#boxx2{
+    /* background-color: #1A1919; */
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#boxx2 #set1{
+    height: 45vh;
+    width: 20vw;
+    background-color: rgb(229, 229, 229);
+    border-radius: 15px;
+    position: relative;
+}
+
+
+#set1 img{
+    height: 10vh;
+    margin-bottom: 2vh;
+    
+}
+
+#set1 h2{
+    font-family: polysam;
+    font-size: 25px;
+}
+
+#set1 p{
+    font-family: polyslim;
+    font-size: 20px;
+    text-align: left;
+}
+
+
