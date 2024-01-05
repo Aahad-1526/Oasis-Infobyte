@@ -1,11 +1,11 @@
 @font-face {
     font-family: polysam;
-    src: url(./polysam.ttf);
+    src: url(./assests/fonts/polysam.ttf);
 }
 
 @font-face {
     font-family: polyslim;
-    src: url(./PPCirka-Regular.ttf);
+    src: url(./assests/fonts/PPCirka-Regular.ttf);
 }
 
 
@@ -372,9 +372,81 @@ html,body{
 }
 
 #white{
-    min-height: 100vh;
+    min-height: 120vh;
     width: 100%;
     background-color: #DDDDDD;
     border-top-right-radius: 6%;
     border-top-left-radius: 6%;
+    position: relative;
+}
+
+#text{
+
+    min-height: 80vh;
+    width: 60%;
+    top: 20%;
+    left: 25%;
+    color: #1A1919;
+    position: absolute;
+
+}
+
+#text h1{
+    font-size: 70px;
+    font-family: polysam;
+    font-weight: 800;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+#text span{
+    font-size: 70px;
+    font-weight: 100;
+    font-family: polyslim;
+}
+
+#text p{
+    font-family: polysam;
+    font-size: 29px;
+    font-weight: 200;
+    margin-bottom: 80px;
+    opacity: 0.8;
+
+}
+
+#white2{
+    min-height: 120vh;
+    width: 100%;
+    background-color: #DDDDDD;
+    position: relative;
+}
+
+#box1{
+    text-align: center;
+    margin-bottom: 120px;
+    /* margin-top: 50px; */
+}
+
+
+#box1 h1{
+    font-size: 110px;
+    font-family: polysam;
+    font-weight: 800;
+    line-height: 99px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+#box1 span{
+    font-size: 110px;
+    font-weight: 100;
+    font-family: polyslim;
+}
+
+#box3{
+    height: 70vh;
+    width: 50vw;
+    /* background-color: #1A1919; */
+    margin: 60px auto;
+    
 }
