@@ -532,13 +532,13 @@ html,body{
     font-size: 100px;
     font-family: polysam;
     font-weight: 800;
-    line-height: 89px;
+    line-height: 110px;
     margin-bottom: 20px;
     padding-top: 50px;
 }
     
 #boxx1 span{
-    font-size: 100px;
+    font-size: 110px;
     font-weight: 100;
     font-family: polyslim;
 }
@@ -569,24 +569,181 @@ html,body{
     background-color: rgb(229, 229, 229);
     border-radius: 15px;
     position: relative;
+    transition: all ease-out 1s;
 }
 
 
 #set1 img{
-    height: 10vh;
+    height: 12vh;
     margin-bottom: 2vh;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+
     
 }
 
 #set1 h2{
+    position: absolute;
+    top: 37%;
+    left: 7%;
     font-family: polysam;
     font-size: 25px;
 }
 
 #set1 p{
-    font-family: polyslim;
-    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    right: 7%;
+    font-family: polysam;
+    font-size: 15px;
     text-align: left;
 }
+
+#set1 #arrowbtw{
+    position: absolute;
+    bottom: 13%;
+    left: 7%;
+    font-family: polysam;
+    cursor: pointer;
+
+}
+
+#set1:hover{
+    scale: 1.1;
+    box-shadow: black;
+}
+
+
+#white4{
+    min-height: 120vh;
+    width: 100%;
+    background-color: #DDDDDD;
+    color: #1A1919;
+    text-align: center;
+    /* padding-top: 500px; */
+    overflow: hidden;
+}
+
+#white4 #boxx1{
+    margin-bottom: 60px;
+}
+#white4 #part2{
+    height: 40vh;
+    width: 500vw;
+    background-color: #1A1919;
+}
+
+
+#bigtext{
+    height: 18vh;
+    width: 100vw;
+    color: #1A1919;
+    background-color: #DDDDDD;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+#textpart1{
+    height: 15vh;
+    width: 100vw;
+    margin-right: 35px;
+    animation: 25s slide infinite linear;
+    
+}
+
+@keyframes slider {
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(+100%);
+    }
+
+    
+}
+
+#textpart2{
+    height: 15vh;
+    width: 100vw;
+    animation: 25s slide infinite linear;
+    
+}
+
+
+#textpart1 h1{
+    font-size: 15vh;
+    font-family: polysam;
+    white-space: nowrap;
+}
+
+#textpart2 h1{
+    font-size: 15vh;
+    font-family: polysam;
+    white-space: nowrap;
+    color: #DDDDDD;
+    -webkit-text-stroke-color: #1A1919;
+    -webkit-text-stroke-width: 0.01px;
+
+}
+
+#bigtext2{
+    height: 18vh;
+    width: 100vw;
+    color: #1A1919;
+    background-color: #DDDDDD;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+@keyframes slider {
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(+100%);
+    }
+
+    
+}
+#textpart11{
+    height: 15vh;
+    width: 100vw;
+    margin-right: 35px;
+    animation: 25s slider infinite linear;
+    
+}
+
+
+#textpart21{
+    height: 15vh;
+    width: 100vw;
+    animation: 25s slider infinite linear;
+    
+}
+
+
+#textpart11 h1{
+    font-size: 15vh;
+    font-family: polysam;
+    white-space: nowrap;
+}
+
+#textpart21 h1{
+    font-size: 15vh;
+    font-family: polysam;
+    white-space: nowrap;
+    color: #DDDDDD;
+    -webkit-text-stroke-color: #1A1919;
+    -webkit-text-stroke-width: 0.01px;
+
+}
+
+
 
 
